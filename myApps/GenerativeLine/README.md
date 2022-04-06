@@ -17,7 +17,7 @@ It signifies that our problems still exists and it takes effort to take care of 
 
 Here are the screenshots of the program. 
 
-![](/Users/chi-tingtsai/Desktop/Screen Shot 2022-04-07 at 12.08.23 AM.png) 
+<img src ="/Users/chi-tingtsai/Desktop/Screen Shot 2022-04-07 at 12.08.23 AM.png"> 
 
 ![](/Users/chi-tingtsai/Desktop/Screen Shot 2022-04-07 at 12.07.18 AM.png)
 
