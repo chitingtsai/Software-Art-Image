@@ -17,10 +17,8 @@ It signifies that our problems still exists and it takes effort to take care of 
 
 Here are the screenshots of the program. 
 
-<img src ="/Users/chi-tingtsai/Desktop/Screen Shot 2022-04-07 at 12.08.23 AM.png"> 
+<img width="1051" alt="Screen Shot 2022-04-07 at 12 07 18 AM" src="https://user-images.githubusercontent.com/102526592/162063838-25f52b74-0322-4e87-85f7-2cb566364302.png">
+<img width="1021" alt="Screen Shot 2022-04-07 at 12 08 09 AM" src="https://user-images.githubusercontent.com/102526592/162063846-5871085f-33b4-4985-af49-333a4460c5c4.png">
+<img width="1021" alt="Screen Shot 2022-04-07 at 12 08 20 AM" src="https://user-images.githubusercontent.com/102526592/162063848-fdf94ff0-e57e-48a1-a4d4-8a65a57ecdfb.png">
+<img width="1440" alt="Screen Shot 2022-04-07 at 12 08 23 AM" src="https://user-images.githubusercontent.com/102526592/162063850-7a4d33bd-b7d0-49fc-9b2f-d47b49023288.png">
 
-![](/Users/chi-tingtsai/Desktop/Screen Shot 2022-04-07 at 12.07.18 AM.png)
-
-![](/Users/chi-tingtsai/Desktop/Screen Shot 2022-04-07 at 12.08.09 AM.png)
-
-![](/Users/chi-tingtsai/Desktop/Screen Shot 2022-04-07 at 12.08.20 AM.png)
