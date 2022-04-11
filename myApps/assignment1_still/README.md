@@ -13,3 +13,8 @@ I decided at that point as this was the most concise way of representing mignigh
 Or, there is definitely more to be done with composition of shapes and something on the technical side with more complicated functions.  
 However, I am happy with the work as the entire project came out of experimentation. I was palying around with drawing lines in different direction to perspective change and suddenly this image hit me.
 It was totally unexpected but it made me feel nostalgic. That was why I chose to settle on it. 
+
+
+Screenshots from the app: 
+<img width="1025" alt="Screen Shot 2022-04-12 at 12 00 45 AM" src="https://user-images.githubusercontent.com/102526592/162827186-80548b0d-c827-4f3d-af88-9aaa9ad45044.png">
+<img width="1023" alt="Screen Shot 2022-04-12 at 12 00 51 AM" src="https://user-images.githubusercontent.com/102526592/162827203-68d50ae3-4625-491d-a4b6-922a774b2fb1.png">
