@@ -15,6 +15,7 @@ void ofApp::setup(){
     gui.add(toggle.setup("quiet headache", false));
     gui.add(button.setup("attention to yourself"));
     
+    
     //    gui.add(vec3Slider.setup("vec3 slider", ofVec3f(100,150,90), ofVec3f(0,0,0), ofVec3f(255,255,255)));
 }
 
