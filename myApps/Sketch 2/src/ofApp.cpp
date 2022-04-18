@@ -16,9 +16,10 @@ void ofApp::update(){
 void ofApp::draw(){
     float time = ofGetElapsedTimef();
     
+    ofSetColor(255, 255, 255);
+    ofDrawCircle(ofRandom(ofGetWidth()), ofRandom(ofGetHeight()/5), 5 + ofNoise(5));
+    
     for (int y = 1; y < 20; y++){
-        ofSetColor(255, 255, 255);
-        ofDrawCircle(ofRandom(ofGetWidth()), ofRandom(ofGetHeight()/5), 5 + ofNoise(5));
     for (int i=0; i < 900; i+=5){
         
         ofSetColor(215 + 30 * sin (i * 0.01 + time),
