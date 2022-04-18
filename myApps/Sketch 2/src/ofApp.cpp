@@ -16,9 +16,11 @@ void ofApp::update(){
 void ofApp::draw(){
     float time = ofGetElapsedTimef();
     
+    //stars
     ofSetColor(255, 255, 255);
     ofDrawCircle(ofRandom(ofGetWidth()), ofRandom(ofGetHeight()/5), 5 + ofNoise(5));
     
+    //waves
     for (int y = 1; y < 20; y++){
     for (int i=0; i < 900; i+=5){
         
