@@ -60,7 +60,7 @@ void ofApp::draw(){
     
     DrawingColor.setHsb(0,0,0);
     ofSetColor(DrawingColor);
-    ofDrawCircle(ofGetWidth()/2 , ofGetHeight()/4*3-1,5);
+    ofDrawCircle(ofGetWidth()/2 , ofGetHeight()/4*3,5);
     
     gui.draw();
 }
