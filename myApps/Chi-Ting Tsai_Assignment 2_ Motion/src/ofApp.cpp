@@ -10,7 +10,7 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
 
-    starttime = ofGetElapsedTimef();
+    time = ofGetElapsedTimef();
 }
 
 //--------------------------------------------------------------
@@ -27,22 +27,18 @@ void ofApp::draw(){
         ofDrawBitmapString(ofToString(message.velocity), ofGetWidth() - 50, 240 + i * 16);
         ofDrawBitmapString("Pitch", ofGetWidth() - 125, 205);   //36 - 84 -> color
         ofDrawBitmapString(ofToString(message.pitch), ofGetWidth() - 100, 240 + i * 16);
-//        ofDrawBitmapString("Value", ofGetWidth() - 175, 205);   //0 - 127 ->
-//        ofDrawBitmapString(ofToString(message.value), ofGetWidth() - 150, 240 + i * 16);
         
     
         //mapping values
-        mappedVelocity = ofMap(message.velocity, 0, 127, 20, 250);
+        mappedVelocity = ofMap(message.velocity, 0, 127, 20, 70);
         mappedPitch = ofMap(message.pitch, 36, 84, 0, ofGetWidth());
-//        mappedValue = ofMap(message.value, 0, 127, 0, 255);
+        mappedColor = ofMap(message.pitch, 36, 84, 0, 255);
         
         
         //drawing circles based on the MIDI messages
-        ofSetColor(mappedVelocity, mappedVelocity/2, mappedVelocity/1.5, 100-i*5);
-        ofDrawCircle( mappedPitch, ofGetHeight()/2, size = mappedVelocity * (i * 1.1));
-        
+        ofSetColor(mappedColor, mappedColor/1.5, mappedColor/2, 255* sin(i * 0.05 + time));
+        ofDrawCircle(mappedPitch, ofGetWidth()-mappedPitch, mappedVelocity);
     }
-    
 }
 
 //--------------------------------------------------------------

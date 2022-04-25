@@ -28,9 +28,10 @@ class ofApp :
       
       ofxMidiIn midi;
       vector <ofxMidiMessage> messages;
-        int mappedVelocity;
-        int mappedPitch;
-        int mappedValue;
-        float starttime;
-        int size;
+        float mappedVelocity;
+        float mappedPitch;
+        float mappedValue;
+        float mappedColor;
+        float time;
+        float size;
 };
