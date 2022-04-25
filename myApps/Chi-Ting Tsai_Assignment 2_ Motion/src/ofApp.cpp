@@ -36,8 +36,20 @@ void ofApp::draw(){
         
         
         //drawing circles based on the MIDI messages
-        ofSetColor(mappedColor, mappedColor/1.5, mappedColor/2, 255* sin(i * 0.05 + time));
+        ofSetColor(mappedColor/2.5, mappedColor/1.5, mappedColor, 255* sin(i * 0.05 + time));
         ofDrawCircle(mappedPitch, ofGetWidth()-mappedPitch, mappedVelocity);
+        
+        ofSetColor(mappedColor/2, mappedColor/1.5, mappedColor, 30* sin(i * 0.05 + time));
+        ofDrawCircle(mappedPitch - 150, ofGetWidth()- mappedPitch - 250, mappedVelocity*1.5);
+        
+        ofSetColor(mappedColor/3, mappedColor/1.5, mappedColor, 25* sin(i * 0.05 + time));
+        ofDrawCircle(mappedPitch + 200 , ofGetWidth()- mappedPitch + 250, mappedVelocity*1.8);
+        
+        ofSetColor(mappedColor/3, mappedColor/1.5, mappedColor, 5* sin(i * 0.05 + time));
+        ofDrawCircle(mappedPitch - 150 , ofGetWidth()- mappedPitch - 250, mappedVelocity*3);
+        
+        ofSetColor(mappedColor/3, mappedColor/1.5, mappedColor, 10* sin(i * 0.05 + time));
+        ofDrawCircle(mappedPitch + 200 , ofGetWidth()- mappedPitch + 250, mappedVelocity*4.5);
     }
 }
 
