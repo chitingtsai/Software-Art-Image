@@ -44,6 +44,16 @@ void ofApp::draw(){
         ofDrawRectangle(100, barWidth/2, val[i] * length, barWidth/2);
         ofPopMatrix();
         
+        //audio progress
+        ofSetColor(255);
+        for (int j = 0; j < 3; j++){
+            ofDrawRectangle((j * 20) + 300, ofGetHeight()- 110, ofMap(audio_position, 0, 1, 20, ofGetWidth()/4 - 50), 5);
+        }
+        
+        //Spotify text
+        ofSetColor(255);
+        ofDrawBitmapString("For You Playlist", 300, 170);
+        
         //Spotify background
         ofSetColor(255, 255, 255, 180);
         home.draw(ofGetWidth()/2 - 205, ofGetHeight()-70, 70, 70);
@@ -51,18 +61,11 @@ void ofApp::draw(){
         shelf.draw(ofGetWidth()/2 + 100, ofGetHeight()-95, 120, 120);
         pause.draw(ofGetWidth()/2 - 215, ofGetHeight()-225, 100, 100);
         
+        ofSetColor(0, 0, 0, call_transparency);
+        ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
+        
         ofSetColor(255, 255, 255, play_transparency);
         play.draw(ofGetWidth()/2 - 205, ofGetHeight()-215, 75, 75);
-        
-        //Spotify text
-        ofSetColor(255);
-        ofDrawBitmapString("For You Playlist", 300, 170);
-        
-        //audio progress
-        ofSetColor(255);
-        for (int j = 0; j < 3; j++){
-            ofDrawRectangle((j * 20) + 300, ofGetHeight()- 110, ofMap(audio_position, 0, 1, 20, ofGetWidth()/4 - 50), 5);
-        }
         
         //ringtone & end of pride music
         if (audio_position == 1.0){
