@@ -5,8 +5,11 @@ Deliverables
 - Make a 2-3 minute performance in class!
 
 Project Name: 
+
 Creaters: Andres Ugartechea Palma (au2045) & Chi-Ting Tsai (ct2653)
+
 Date: May 9th, 2022
+
 
 Story: 
 
