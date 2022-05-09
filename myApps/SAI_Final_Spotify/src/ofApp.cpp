@@ -68,7 +68,7 @@ void ofApp::draw(){
         play.draw(ofGetWidth()/2 - 205, ofGetHeight()-215, 75, 75);
         
         //ringtone & end of pride music
-        if (audio_position == 1.0){
+        if (audio_position > 0.99){
             play_transparency = 255;
             ring.play();
             call_transparency = 255;

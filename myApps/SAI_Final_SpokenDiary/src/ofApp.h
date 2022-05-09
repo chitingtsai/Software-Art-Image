@@ -34,5 +34,8 @@ class ofApp : public ofBaseApp{
     float audio_position;
     float line_progress;
     float opacity_progress;
-		
+    
+    ofImage notes;
+    int note_transparency;
+    float time; 
 };
