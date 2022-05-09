@@ -38,6 +38,9 @@ void ofApp::draw(){
     
     //say diary playing
     
+    ofSetColor(0, 0, 0);
+    ofDrawBitmapString("MAY 9TH, 3:46 am", ofGetWidth() - 200, 100);
+    
     line_progress = ofMap(audio_position, 0, 100, 0, 512);
     opacity_progress = ofMap(audio_position, 0, 100, 0, 255);
     
