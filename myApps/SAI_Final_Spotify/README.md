@@ -4,11 +4,11 @@ Deliverables
 - Record a video from your app and upload to Vimeo/YouTube/etc or Google Drive. Provide a link to the video (or embed it) in the writeup
 - Make a 2-3 minute performance in class!
 
-*------------------------------------------------------------------
+*-
 Project Name: 
 Creaters: Andres Ugartechea Palma (au2045) & Chi-Ting Tsai (ct2653)
 Date: May 9th, 2022
-------------------------------------------------------------------*
+-*
 
 Story: 
 
