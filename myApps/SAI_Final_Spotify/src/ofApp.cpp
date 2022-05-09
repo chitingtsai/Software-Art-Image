@@ -53,7 +53,7 @@ void ofApp::draw(){
         //Spotify text
         ofSetColor(255);
         ofDrawBitmapString("For You Playlist", 300, 170);
-        
+        0
         //Spotify background
         ofSetColor(255, 255, 255, 180);
         home.draw(ofGetWidth()/2 - 205, ofGetHeight()-70, 70, 70);
