@@ -43,10 +43,14 @@ Action: The user presses the keys and enter the search. Mo matter what is inputt
 Special functions/codes/logic included: ???
 
 Scene 5: Spoken Diary 
-Special functions/codes/logic included: ???
+Description: The scene showcases a diary written in both Mandarin and Spanish by us slowly appearing and several polylines pulsing with the recording by us in the background. 
+Action: The user listens through the scene and presses enter to continue
+Special functions/codes/logic included: ofpolyline, audio_position
 
 Scene 6: Music Streaming 
-Special functions/codes/logic included: ???
+Description: The scene resembles a music streaming platform playing Lady Gaga's Born This Way and an rainbow-colored audio visualizer moving with the music. The music stops with the ringtone playing and a notification of incoming call from Dad. That's the end. 
+Action: The user presses space bar to play the music and enjoy the rest of the scene. 
+Special functions/codes/logic included: oftranslate, audio_position
 
 
 Performance Video: https://youtu.be/feK29NK3rF0 
