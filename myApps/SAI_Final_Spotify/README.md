@@ -33,9 +33,12 @@ Action: The user moves the cursor downwards (increases Y value) to decrease the 
 Special functions/codes/logic included: ???
 
 Scene 3: Messages on Social Media
+Description: The scene micmics the chat function of social meddia, with rectangular text messages. 
+Action: The user moves tehe cursor across the screen (the Y axis) to rotate the rectangles to the pre-determined range. Once the color changes, click the mouse to reveal the message and move on to the next one.
 Special functions/codes/logic included: oftranslate
 
 Scene 4: Pornography Website
+Description: The scene presents a website for pornography and a search through different genres of porn. Icons of sexual positions show up after respective search. 
 Special functions/codes/logic included: ???
 
 Scene 5: Spoken Diary 
